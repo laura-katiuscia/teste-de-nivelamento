@@ -1,0 +1,33 @@
+{
+    "info": {
+        "name": "Busca Operadoras",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Buscar Operadoras",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:3000/buscar?q=Sa\u00fade",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "buscar"
+                    ],
+                    "query": [
+                        {
+                            "key": "q",
+                            "value": "Sa\u00fade"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
